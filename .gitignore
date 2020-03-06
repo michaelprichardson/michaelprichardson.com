@@ -76,6 +76,8 @@ typings/
 
 # next.js build output
 .next
+out/
+.now
 
 # nuxt.js build output
 .nuxt
@@ -122,5 +124,3 @@ thumb
 sketch
 
 # End of https://www.gitignore.io/api/node,react
-
-.now
