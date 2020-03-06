@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node ssr-server.js",
+    "dev": "next",
     "build": "next build",
     "export": "next export",
     "start": "node ssr-server.js",
+    "build:prod": "NODE_ENV=production && npm run build && npm run export",
+    "start:prod": "NODE_ENV=production && npm run build && npm run export && node ssr-server.js",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
   },
   "repository": {
