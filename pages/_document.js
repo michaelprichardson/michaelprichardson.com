@@ -7,12 +7,10 @@ class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+          <meta content="text/html; charset=utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <meta name="theme-color" content="#FFFFFF" />
 
-          <title>Michael Richardson</title>
           <meta name="description" content="Michael Richardson is a software engineering living in the UK. This is his personal portfolio of projects." />
 
           <meta name="twitter:card" value="summary" />
