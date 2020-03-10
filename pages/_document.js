@@ -7,12 +7,21 @@ class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <meta charSet="utf-8" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
-          <meta name="theme-color" content="#000000" />
+          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <meta name="theme-color" content="#FFFFFF" />
+
+          <title>Michael Richardson</title>
+          <meta name="description" content="Michael Richardson is a software engineering living in the UK. This is his personal portfolio of projects." />
+
+          <meta name="twitter:card" value="summary" />
+
+          <meta property="og:title" content="Michael Richardson" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.michaelprichardson.com" />
+          <meta property="og:image" content={require("assets/img/me.png")} />
+          <meta property="og:description" content="Michael Richardson is a software engineering living in the UK. This is his personal portfolio of projects." />
 
           <link rel="apple-touch-icon" sizes="180x180" href={require("assets/img/apple-touch-icon.png")} />
           <link rel="icon" type="image/png" sizes="32x32" href={require("assets/img/favicon-32x32.png")} />
