@@ -4,14 +4,14 @@ import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
 
-// import PageChange from "components/PageChange/PageChange.js";
+import PageChange from "components/PageChange/PageChange.js";
 
-// import "assets/scss/nextjs-material-kit.scss?v=1.0.0";
+import "assets/scss/nextjs-material-kit.scss?v=1.0.0";
 
 Router.events.on("routeChangeStart", url => {
   document.body.classList.add("body-page-transition");
   ReactDOM.render(
-    // <PageChange path={url} />,
+    <PageChange path={url} />,
     document.getElementById("page-transition")
   );
 });
