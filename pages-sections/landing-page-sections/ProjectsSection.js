@@ -13,10 +13,13 @@ import InfoArea from "components/InfoArea/InfoArea.js";
 
 import styles from "assets/jss/pages/landingPageSections/projectsStyle.js";
 
+import { posts } from "assets/data/posts.js";
+
 const useStyles = makeStyles(styles);
 
 export default function ProjectsSection() {
   const classes = useStyles();
+
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
@@ -29,25 +32,20 @@ export default function ProjectsSection() {
       </GridContainer>
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={6}>
-            <InfoArea
-              title="Townaide"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
-              iconColor="info"
-              vertical
-            />
-          </GridItem>
-
-          <GridItem xs={12} sm={12} md={6}>
-            <InfoArea
-              title="Soltero"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
-              iconColor="info"
-              vertical
-            />
-          </GridItem>
+          {posts.map((post, index) => {
+            return (
+              <GridItem key={post.id} xs={12} sm={12} md={6}>
+                <InfoArea
+                  id={post.id}
+                  title={post.title}
+                  description={post.description}
+                  icon={require(`assets/img/posts/${post.id}.png`)}
+                  iconColor="info"
+                  vertical
+                />
+              </GridItem>
+            )
+          })}
         </GridContainer>
       </div>
     </div>

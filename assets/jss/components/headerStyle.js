@@ -51,6 +51,13 @@ const headerStyle = {
   flex: {
     flex: 1
   },
+  link: {
+    color: "inherit",
+    "&:hover,&:focus": {
+      color: "inherit",
+      background: "transparent"
+    }
+  },
   title: {
     ...defaultFont,
     lineHeight: "30px",

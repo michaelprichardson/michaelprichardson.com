@@ -1,6 +1,7 @@
 import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
+import Link from 'next/link';
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -12,7 +13,7 @@ const useStyles = makeStyles(styles);
 
 export default function InfoArea(props) {
   const classes = useStyles();
-  const { title, description, iconColor, vertical } = props;
+  const { id, title, description, iconColor, vertical } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
     [classes[iconColor]]: true,
@@ -25,10 +26,12 @@ export default function InfoArea(props) {
   return (
     <div className={classes.infoArea}>
       <div className={iconWrapper}>
-        <props.icon className={iconClasses} />
+        <img src={props.icon} className={iconClasses} />
       </div>
       <div className={classes.descriptionWrapper}>
-        <h4 className={classes.title}>{title}</h4>
+        <a href={`/post/${id}`}>
+          <h4 className={classes.title}>{title}</h4>
+        </a>
         <p className={classes.description}>{description}</p>
       </div>
     </div>
