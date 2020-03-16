@@ -13,7 +13,7 @@ const useStyles = makeStyles(styles);
 
 export default function InfoArea(props) {
   const classes = useStyles();
-  const { id, title, description, iconColor, vertical } = props;
+  const { id, title, description, url, iconColor, vertical } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
     [classes[iconColor]]: true,
@@ -33,6 +33,9 @@ export default function InfoArea(props) {
           <h4 className={classes.title}>{title}</h4>
         </a>
         <p className={classes.description}>{description}</p>
+        <a href={url}>
+          <i class="fab fa-github fa-2x"></i>
+        </a>
       </div>
     </div>
   );

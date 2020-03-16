@@ -35,14 +35,17 @@ export default function AboutMeSection() {
           <GridItem xs={12} sm={12} md={12}>
             <Card plain>
               <GridItem xs={10} sm={6} md={4} className={classes.itemGrid}>
-                <img src={profile} alt="..." className={imageClasses} />
+                <img src={profile} alt="Michael Richardson" className={imageClasses} />
               </GridItem>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  I studied electrical and electronic engineering at Stellenbosch
+                  University in South Africa.
+                  I completed my bachelors and masters there.
+                  I have a passion for the startup industry and really enjoy the
+                  beginning stages of the business and being involved in everything.
+                  I enjoy everything technology related and have a passion for programming
+                  and machine learning.
                 </p>
               </CardBody>
             </Card>

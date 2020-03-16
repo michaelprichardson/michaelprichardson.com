@@ -40,6 +40,7 @@ export default function ProjectsSection() {
                   title={post.title}
                   description={post.description}
                   icon={require(`assets/img/posts/${post.id}.png`)}
+                  url={post.url}
                   iconColor="info"
                   vertical
                 />
