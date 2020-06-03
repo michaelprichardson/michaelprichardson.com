@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Navbar from './components/layout/Navbar';
 import Footer from "./components/layout/Footer";
-import Landing from "./components/layout/Landing";
+import Home from "./components/layout/Home";
 import Blog from "./components/blog/Blog";
 import NotFound from "./components/layout/NotFound";
 
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Route exact path="/" component={Landing} />
+        <Route exact path="/" component={Home} />
         <div className="container">
           <Route exact path="/blog/post/:postId" component={Blog} />
           <Route exact path="/not-found" component={NotFound} />

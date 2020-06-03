@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "image_url": "../../images/logo_townaide.png",
+            "title": "Townaide",
+            "post_id": "townaide",
+            "short_description": "I was the co-founder of Townaide along with my father. It was a platform where people could add local information and get paid for it. I was responsible for everything technical. I built everything from scratch.",
+            "full_description": "",
+            "github_url": ""
+        },
+        {
+            "image_url": "../../images/logo_traxart.png",
+            "title": "Traxart",
+            "post_id": "traxart",
+            "short_description": "I recently became the co-founder adn CTO of Traxart. It started off as a platform to allows presenters to get better feedback about their presentations. Just after the Covid-19 pandemic started we had to pivot and now the platform specializes in sending hyper personalized emails to attendees of webinars.",
+            "full_description": "",
+            "github_url": ""
+        },
+        {
+            "image_url": "../../images/logo_lemon_law.png",
+            "title": "Lemon Law",
+            "post_id": "lemon-law",
+            "short_description": "This was a personal project that I started and am still busy with. It is a dating app that allows users to chat via text (anonymously) for 200 seconds and then if they both agree to continue the conversation they match and can see more information about eachother.",
+            "full_description": "",
+            "github_url": ""
+        },
+        {
+            "image_url": "../../images/logo_soltero.png",
+            "title": "Soltero",
+            "post_id": "soltero",
+            "short_description": "This was a personal project that I started and am still busy with. It is very similar to Instagram by you are only allowed to post once every 24 hours and has the same layout as TikTok.",
+            "full_description": "",
+            "github_url": ""
+        }
+    ]
+}
