@@ -1,6 +1,6 @@
-$backgroundColor: #343A40;
-$whiteBackgroundColor: #FFFFFF;
-$whiteText: #FFFFFF;
+$backgroundColor: #343a40;
+$whiteBackgroundColor: #ffffff;
+$whiteText: #ffffff;
 
 .App {
   text-align: center;
@@ -10,7 +10,8 @@ $whiteText: #FFFFFF;
   color: $whiteText;
 }
 
-.landing {
+.landing,
+.blog {
   background-color: $whiteBackgroundColor;
 }
 
@@ -34,6 +35,12 @@ $whiteText: #FFFFFF;
 
 .project-logo {
   height: 15vh;
+  width: auto;
+  border-radius: 10px;
+}
+
+.blog-header-image {
+  height: 20vh;
   width: auto;
   border-radius: 10px;
 }

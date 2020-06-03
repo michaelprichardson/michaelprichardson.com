@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import me from "../../assets/img/me.png";
 import townaideLogo from "../../assets/img/logo_townaide.png";
 import traxartLogo from "../../assets/img/logo_traxart.png";
+import lemonLawLogo from "../../assets/img/logo_lemon_law.png";
 import solteroLogo from "../../assets/img/logo_soltero.png";
 import { Link } from "react-router-dom";
 
@@ -21,13 +22,12 @@ class Landing extends Component {
             <h2>A bit about myself</h2>
           </div>
           <div className="col-12">
-            I studied electrical and electronic engineering at Stellenbosch University in South Africa. I completed my bachelors and masters there. My undergraduate project was "
-            <i>Load Balancing using Dynamic Spatial Partitioning</i>". The
-            video van be seen{" "}
-            <a href="https://www.youtube.com/watch?v=yBcdm20Ounc">here</a>. The topic of research for my Masters was "
-            <i>Physical Optics Based Methods for Scattering Analysis</i>" and my
-            thesis can be read{" "}
-            <a href="http://hdl.handle.net/10019.1/103536">here</a>.
+            I studied electrical and electronic engineering at Stellenbosch University in South Africa. 
+            I am currently working wth on Traxart as the co-founder and CTO.
+            I completed my bachelors and masters there. My undergraduate project was 
+            "<a href="https://www.youtube.com/watch?v=yBcdm20Ounc"><i>Load Balancing using Dynamic Spatial Partitioning</i></a>". 
+            The topic of research for my Masters was 
+            "<a href="http://hdl.handle.net/10019.1/103536"><i>Physical Optics Based Methods for Scattering Analysis</i></a>".
           </div>
         </div>
 
@@ -48,7 +48,7 @@ class Landing extends Component {
                 />
               </div>
               <div className="col-12 pt-3">
-                <Link className="nav-link" to="/post/townaide">
+                <Link className="nav-link" to="/blog/post/townaide">
                   <h4>Townaide</h4>
                 </Link>
               </div>
@@ -73,12 +73,18 @@ class Landing extends Component {
                 />
               </div>
               <div className="col-12 pt-3">
-                <Link className="nav-link" to="/post/traxart">
+                <Link className="nav-link" to="/blog/post/traxart">
                   <h4>Traxart</h4>
                 </Link>
               </div>
               <div className="col-12 pt-3">
-                <p>Description of Traxart</p>
+                <p>
+                  I recently became the co-founder adn CTO of Traxart. 
+                  It started off as a platform to allows presenters to get better 
+                  feedback about their presentations. Just after the Covid-19 pandemic 
+                  started we had to pivot and now the platform specializes in sending 
+                  hyper personalized emails to attendees of webinars.
+                  </p>
               </div>
             </div>
           </div>
@@ -87,18 +93,23 @@ class Landing extends Component {
             <div className="row justify-content-center p-3">
               <div className="col-6">
                 <img
-                  src={solteroLogo}
+                  src={lemonLawLogo}
                   className="project-logo"
                   alt="Lemon Law Logo"
                 />
               </div>
               <div className="col-12 pt-3">
-                <Link className="nav-link" to="/post/lemon-law">
+                <Link className="nav-link" to="/blog/post/lemon-law">
                   <h4>Lemon Law</h4>
                 </Link>
               </div>
               <div className="col-12">
-                <p>Description of Lemon Law</p>
+                <p>
+                  This was a personal project that I started and am still busy with.
+                  It is a dating app that allows users to chat via text (anonymously) 
+                  for 200 seconds and then if they both agree to continue the conversation 
+                  they match and can see more information about eachother.
+                </p>
               </div>
             </div>
           </div>
@@ -113,15 +124,16 @@ class Landing extends Component {
                 />
               </div>
               <div className="col-12 pt-3">
-                <Link className="nav-link" to="/post/soltero">
+                <Link className="nav-link" to="/blog/post/soltero">
                   <h4>Soltero</h4>
                 </Link>
               </div>
               <div className="col-12">
                 <p>
-                  This was a fun project that I started and am still busy with.
+                  This was a personal project that I started and am still busy with.
                   It is very similar to Instagram by you are only allowed to
-                  post once every 24 hours.
+                  post once every 24 hours and has the same layout as 
+                  TikTok.
                 </p>
               </div>
             </div>
