@@ -21,16 +21,13 @@ class Landing extends Component {
             <h2>A bit about myself</h2>
           </div>
           <div className="col-12">
-            I studied electrical and electronic engineering at Stellenbosch
-            University in South Africa. I completed my bachelors and masters
-            there. My undergraduate project was "
-            <i>Load Balancing using Dynamic Spatial Partitionaing</i>". The
+            I studied electrical and electronic engineering at Stellenbosch University in South Africa. I completed my bachelors and masters there. My undergraduate project was "
+            <i>Load Balancing using Dynamic Spatial Partitioning</i>". The
             video van be seen{" "}
-            <a href="https://www.youtube.com/watch?v=yBcdm20Ounc">here</a>. The
-            topic of research for my Masters was "
+            <a href="https://www.youtube.com/watch?v=yBcdm20Ounc">here</a>. The topic of research for my Masters was "
             <i>Physical Optics Based Methods for Scattering Analysis</i>" and my
             thesis can be read{" "}
-            <a href="http://hdl.handle.net/10019.1/103536">here</a>
+            <a href="http://hdl.handle.net/10019.1/103536">here</a>.
           </div>
         </div>
 
