@@ -1,0 +1,39 @@
+$backgroundColor: #343A40;
+$whiteBackgroundColor: #FFFFFF;
+$whiteText: #FFFFFF;
+
+.App {
+  text-align: center;
+}
+
+.nav-item i {
+  color: $whiteText;
+}
+
+.landing {
+  background-color: $whiteBackgroundColor;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.not-found {
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.profile-image {
+  height: 20vh;
+  width: auto;
+  border-radius: 10px;
+}
+
+.project-logo {
+  height: 15vh;
+  width: auto;
+  border-radius: 10px;
+}
