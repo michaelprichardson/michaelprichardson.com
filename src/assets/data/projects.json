@@ -1,0 +1,166 @@
+{
+    "projects": [
+        {
+            "image_url": "../../images/logo_townaide.png",
+            "title": "Townaide",
+            "post_id": "townaide",
+            "short_description": "I was the co-founder of Townaide along with my father. It was a platform where people could add local information and get paid for it. I was responsible for everything technical. I built everything from scratch.",
+            "github_url": "",
+            "date": "June 3rd, 2020",
+            "content": [
+                {
+                    "type": "text",
+                    "content": "I co-founded Townaide with my Father and Brother at the start of 2018 in Somerset West, South Africa. I had just finished my Master's degree and was very keen to try to get a tech startup going. The original tech, as my father had put an idea together, was running off of Wordpress. Wordpress is great for all sorts of websites and I tried to get the idea working with Wordpress but I ran into some difficulties trying to build an API around it for the mobiles apps and I wasn't a big fan of the Wordpress styling either.",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "I started by using a simple ReactJS website for the home page (we didn't have a dashboard yet). It was a simple website that just showed what Townaide did and links (eventually) to the apps. I chose ReactJS because I didn't know the framework and wanted to learn it as I had heard a lot of good things about it online. So creating a simple website was an easy way to learn the basics. The screenshot of the website below is after two years of development. I had added an interactive map to the home screen that could display the markers for a user based on their location (either by giving us their location permission or IP location).",
+                    "alt": ""
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/townaide/townaide_home_1.png",
+                    "alt": "Townaide home page"
+                },
+                {
+                    "type": "text",
+                    "content": "Explain the purpose of the dashboard",
+                    "alt": ""
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/townaide/townaide_dashboard_1.png",
+                    "alt": "Townaide dashboard home"
+                },
+                {
+                    "type": "text",
+                    "content": "Explain the purpose of the dashboard",
+                    "alt": ""
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/townaide/townaide_dashboard_2.png",
+                    "alt": "Townaide dashboard listings"
+                },
+                {
+                    "type": "text",
+                    "content": "Explain how I learnt Swift and Android to develop the apps",
+                    "alt": ""
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/townaide/townaide_ios_1.png",
+                    "alt": "Townaide iOS app"
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/townaide/townaide_ios_2.png",
+                    "alt": "Townaide iOS app"
+                }
+            ]
+        },
+        {
+            "image_url": "../../images/logo_traxart.png",
+            "title": "Traxart",
+            "post_id": "traxart",
+            "short_description": "I recently became the co-founder adn CTO of Traxart. It started off as a platform to allows presenters to get better feedback about their presentations. Just after the Covid-19 pandemic started we had to pivot and now the platform specializes in sending hyper personalized emails to attendees of webinars.",
+            "github_url": "",
+            "date": "June 3rd, 2020",
+            "content": [{
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "image_url": "../../images/logo_lemon_law.png",
+            "title": "Lemon Law",
+            "post_id": "lemon-law",
+            "short_description": "This was a personal project that I started and am still busy with. It is a dating app that allows users to chat via text (anonymously) for 200 seconds and then if they both agree to continue the conversation they match and can see more information about eachother.",
+            "github_url": "",
+            "date": "June 3rd, 2020",
+            "content": [{
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "image_url": "../../images/logo_soltero.png",
+            "title": "Soltero",
+            "post_id": "soltero",
+            "short_description": "This was a personal project that I started and am still busy with. It is very similar to Instagram by you are only allowed to post once every 24 hours and has the same layout as TikTok.",
+            "github_url": "",
+            "date": "June 3rd, 2020",
+            "content": [{
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "Some content",
+                    "alt": ""
+                }
+            ]
+        }
+    ]
+}

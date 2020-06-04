@@ -26,12 +26,12 @@ class Navbar extends Component {
                   <i className="fab fa-github fa-lg"></i>
                 </a>
               </li>
-              <li className="nav-item ml-3">
+              <li className="nav-item">
                 <a href="https://stackoverflow.com/users/4806467/michael-richardson">
                   <i className="fab fa-stack-overflow fa-lg"></i>
                 </a>
               </li>
-              <li className="nav-item ml-3">
+              <li className="nav-item">
                 <a href="https://www.linkedin.com/in/michael-peter-richardson/">
                   <i className="fab fa-linkedin fa-lg"></i>
                 </a>

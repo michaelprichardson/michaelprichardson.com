@@ -1,3 +1,5 @@
+@import './index.scss';
+
 $backgroundColor: #343a40;
 $whiteBackgroundColor: #ffffff;
 $whiteText: #ffffff;
@@ -8,6 +10,13 @@ $whiteText: #ffffff;
 
 .nav-item i {
   color: $whiteText;
+  padding-left: 2rem;
+
+  @include respond-below(sm) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+  }
 }
 
 .home,
@@ -44,3 +53,4 @@ $whiteText: #ffffff;
   width: auto;
   border-radius: 10px;
 }
+

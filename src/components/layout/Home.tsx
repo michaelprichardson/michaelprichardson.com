@@ -3,15 +3,15 @@ import React, { Component } from "react";
 import me from "../../assets/img/me.png";
 import { Link } from "react-router-dom";
 
-import projectData from '../../data/projects.json';
+import projectData from '../../assets/data/projects.json';
 
 class Home extends Component {
   render() {
     const projects = projectData.projects.map((project, index) => {
       return (
         <div key={index} className="col-md-6">
-          <div className="row justify-content-center p-3">
-            <div className="col-6">
+          <div className="row justify-content-center p-1 p-md-3">
+            <div className="col-12 col-md-6">
               <img
                 src={project.image_url}
                 className="project-logo"
@@ -33,12 +33,12 @@ class Home extends Component {
     return (
       <div className="container home">
         <div className="row pt-5 justify-content-center">
-          <div className="col-3">
+          <div className="col-12 col-md-3">
             <img src={me} className="profile-image" alt="Michael Richardson" />
           </div>
         </div>
 
-        <div className="row p-3">
+        <div className="row p-1 pt-3 p-md-3">
           <div className="col-12">
             <h2>A bit about myself</h2>
           </div>

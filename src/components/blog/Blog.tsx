@@ -3,8 +3,9 @@ import React, { Component } from "react";
 import BlogHeader from "./BlogHeader";
 import BlogBody from "./BlogBody";
 import { RouteProps } from "react-router-dom";
+import { BlogContent } from './BlogBody';
 
-import projectData from '../../data/projects.json';
+import projectData from '../../assets/data/projects.json';
 
 interface Props { 
     match: { 
@@ -12,15 +13,6 @@ interface Props {
             postId: string
         }
     } 
-}
-
-interface BlogPost {
-    image_url: string;
-    title: string;
-    post_id: string;
-    short_description: string;
-    full_description: string;
-    github_url: string;
 }
 
 interface State {
@@ -56,9 +48,11 @@ class Blog extends Component<Props & RouteProps, State> {
                         <BlogHeader 
                             imageUrl={blogPost.image_url}
                             title={blogPost.title}
-                            date={'03/06/2020'}
+                            date={blogPost.date}
                         ></BlogHeader>
-                        <BlogBody></BlogBody>
+                        <BlogBody
+                            blogContent={blogPost.content}
+                        ></BlogBody>
                     </div>
                 ) : (
                      <div>Loading...</div>
@@ -70,3 +64,13 @@ class Blog extends Component<Props & RouteProps, State> {
 }
 
 export default Blog;
+
+export interface BlogPost {
+    image_url: string;
+    title: string;
+    post_id: string;
+    short_description: string;
+    github_url: string;
+    date: string;
+    content: BlogContent[];
+}
