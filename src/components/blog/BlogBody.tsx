@@ -5,13 +5,15 @@ interface Props {
 }
 
 class BlogBody extends Component<Props> {
+    createMarkup(value: string) {
+        return { __html: value };
+    }
+
     render() {
         const content = this.props.blogContent.map((item, index) => {
             if (item.type === 'text') {
                 return (
-                    <div className="col-12 pt-3 pb-3">
-                        <p>{item.content}</p>
-                    </div>
+                    <div className="col-12 pt-3 pb-3" dangerouslySetInnerHTML={this.createMarkup(item.content)}></div>
                 );
             }
             else if (item.type === 'image') {
