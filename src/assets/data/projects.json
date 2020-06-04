@@ -171,6 +171,40 @@
                     "alt": ""
                 }
             ]
+        },
+        {
+            "image_url": "../../images/logo_stanford.png",
+            "title": "Stanford CS193p",
+            "post_id": "stanford-cs193p",
+            "short_description": "I followed the Stanford iOS development course CS193p on YouTube. It taught SwiftUI by creating a memorize game.",
+            "github_url": "",
+            "date": "June 5th, 2020",
+            "content": [{
+                    "type": "text",
+                    "content": "<p>Some content</p>",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "<p>Some content</p>",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "<p>Some content</p>",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "<p>Some content</p>",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "<p>Some content</p>",
+                    "alt": ""
+                }
+            ]
         }
     ]
 }
