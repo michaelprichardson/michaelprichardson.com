@@ -28,8 +28,13 @@ class BlogBody extends Component<Props> {
 
         return (
             <div className="container blog-body">
-                <div className="row p-3 pt-3 pb-5">
+                <div className="row p-3 pt-3 pb-0">
                     {content}
+                </div>
+                <div className="row p-3 pt-1 pb-5 text-center">
+                    <div className="col-12">
+                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mprichardson_"><i className="fab fa-twitter fa-2x twitter"></i> </a>
+                    </div>
                 </div>
             </div>
         );

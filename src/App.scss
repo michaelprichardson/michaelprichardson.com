@@ -3,6 +3,11 @@
 $backgroundColor: #343a40;
 $whiteBackgroundColor: #ffffff;
 $whiteText: #ffffff;
+$darkText: #292E33;
+
+h1, h2, h3, h4, h5, h6, p {
+  color: $darkText;
+}
 
 .App {
   text-align: center;
@@ -17,6 +22,11 @@ $whiteText: #ffffff;
     padding-bottom: 1rem;
     padding-left: 0;
   }
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: $darkText;
 }
 
 .home,
@@ -54,3 +64,6 @@ $whiteText: #ffffff;
   border-radius: 10px;
 }
 
+.twitter {
+  color: #00aced;
+}

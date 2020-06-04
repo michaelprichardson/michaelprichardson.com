@@ -10,12 +10,12 @@
             "content": [
                 {
                     "type": "text",
-                    "content": "I co-founded Townaide with my Father and Brother at the start of 2018 in Somerset West, South Africa. I had just finished my Master's degree and was very keen to try to get a tech startup going. The original tech, as my father had put an idea together, was running off of Wordpress. Wordpress is great for all sorts of websites and I tried to get the idea working with Wordpress but I ran into some difficulties trying to build an API around it for the mobiles apps and I wasn't a big fan of the Wordpress styling either.",
+                    "content": "I co-founded Townaide with my Father and Brother at the start of 2018 in Somerset West, South Africa. I had just finished my Master's degree and was very keen to try to get a tech startup going. The idea behind Townaide is that locals keep the information of the platform up to date by adding and reviewing new listings and in return, they get their share of the profits. It is very similar to Google Maps in that you can browse and find places of interest, bars, restaurants, etc. nearby or in a location of your choice.",
                     "alt": ""
                 },
                 {
                     "type": "text",
-                    "content": "I started by using a simple ReactJS website for the home page (we didn't have a dashboard yet). It was a simple website that just showed what Townaide did and links (eventually) to the apps. I chose ReactJS because I didn't know the framework and wanted to learn it as I had heard a lot of good things about it online. So creating a simple website was an easy way to learn the basics. The screenshot of the website below is after two years of development. I had added an interactive map to the home screen that could display the markers for a user based on their location (either by giving us their location permission or IP location).",
+                    "content": "The original tech, as my father had put an idea together, was running off of Wordpress. Wordpress is great for all sorts of websites and I tried to get the idea working with Wordpress but I ran into some difficulties trying to build an API around it for the mobiles apps and I wasn't a big fan of the Wordpress styling either. I started by using a simple ReactJS website for the home page (we didn't have a dashboard yet). It was a simple website that just showed what Townaide did and links (eventually) to the apps. I chose ReactJS because I didn't know the framework and wanted to learn it as I had heard a lot of good things about it online. So creating a simple website was an easy way to learn the basics. The screenshot of the website below is after two years of development. I had added an interactive map to the home screen that could display the markers for a user based on their location (either by giving us their location permission or IP location).",
                     "alt": ""
                 },
                 {
@@ -25,7 +25,7 @@
                 },
                 {
                     "type": "text",
-                    "content": "Explain the purpose of the dashboard",
+                    "content": "There were two types of users on Townaide. A normal user and a lister. The users were everyday people that would use the platform to find what they were looking for and listers were the people who kept the information up to date and added new information in their areas. The dashboard was made for listers to view the listings that they had added and view, review and check their balances. It was also a way that we, the founders, could communicate with the listers.",
                     "alt": ""
                 },
                 {
@@ -35,7 +35,7 @@
                 },
                 {
                     "type": "text",
-                    "content": "Explain the purpose of the dashboard",
+                    "content": "The listers would be able to see which listings are bringing in the most money and be able to focus on certain types of listings to increase their returns. The dashboard also had a section for super admins to view analytics for the entire platform. We were able to view a heat map of were most listings were added and the listing density for each of the listers.",
                     "alt": ""
                 },
                 {
@@ -45,7 +45,7 @@
                 },
                 {
                     "type": "text",
-                    "content": "Explain how I learnt Swift and Android to develop the apps",
+                    "content": "To make the platform more accessible we decided that we need mobile apps. I had learnt Java in university and learn Android by watching 200 YouTube videos over a couple of weeks (Here's the link to the YouTube playlist, https://www.youtube.com/playlist?list=PL2F07DBCDCC01493A. It will most likely be out of date seeing as it was made in 2014). I had never done any sort of programming on iOS before so I started by scratching around on YouTube and found loads of tutorials on how do get started. I also bought a few courses from Udacity to help me learn quicker. I started by learning Swift and it looked much easier and more promising that objective C. The app shown below is all iOS and the Android version looks the same.",
                     "alt": ""
                 },
                 {
@@ -54,9 +54,19 @@
                     "alt": "Townaide iOS app"
                 },
                 {
+                    "type": "text",
+                    "content": "Building Townaide taught me a lot. I had to tackle real-world problems and write scalable code (like having to write tests for the code because it's no fun searching through Swift code after spending all day writing Javascript). I had to learn how to optimize queries to a PostgreSQL database as we had over 12 million listings and 10 000 users and you don't want one person to crash the whole database or server just because the query was looking through all 12 million listings to find a barber around the corner. I had to streamline all the processes like interacting CI into the workflow so that the code was tested before deploying.",
+                    "alt": ""
+                },
+                {
                     "type": "image",
                     "content": "../../images/blog_posts/townaide/townaide_ios_2.png",
                     "alt": "Townaide iOS app"
+                },
+                {
+                    "type": "text",
+                    "content": "Thanks for reading my short overview of Townaide and the role I played in it. If you would like to find out more or ask me a question regarding choices I made feel free to get in contact with me on Twitter.",
+                    "alt": ""
                 }
             ]
         },

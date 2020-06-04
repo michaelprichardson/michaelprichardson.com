@@ -26,6 +26,11 @@ class Home extends Component {
             <div className="col-12 pt-3">
               <p>{project.short_description}</p>
             </div>
+            {/* <div className="col-12 pt-3">
+              <Link className="post-link" to={`/blog/post/${project.post_id}`}>
+                <b>View post <i className="fas fa-arrow-right"></i></b>
+              </Link>
+            </div> */}
           </div>
         </div>
       );
