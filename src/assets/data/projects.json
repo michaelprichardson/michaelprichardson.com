@@ -76,16 +76,16 @@
             "post_id": "traxart",
             "short_description": "I recently became the co-founder adn CTO of Traxart. It started off as a platform to allows presenters to get better feedback about their presentations. Just after the Covid-19 pandemic started we had to pivot and now the platform specializes in sending hyper personalized emails to attendees of webinars.",
             "github_url": "",
-            "date": "June 4th, 2020",
+            "date": "June 25th, 2020",
             "content": [{
                     "type": "text",
                     "content": "<p>Some content</p>",
                     "alt": ""
                 },
                 {
-                    "type": "text",
-                    "content": "<p>Some content</p>",
-                    "alt": ""
+                    "type": "image",
+                    "content": "../../images/blog_posts/traxart/traxart_login.png",
+                    "alt": "Traxart login"
                 },
                 {
                     "type": "text",
@@ -93,14 +93,49 @@
                     "alt": ""
                 },
                 {
-                    "type": "text",
-                    "content": "<p>Some content</p>",
-                    "alt": ""
+                    "type": "image",
+                    "content": "../../images/blog_posts/traxart/traxart_home.png",
+                    "alt": "Traxart dashboard home"
                 },
                 {
                     "type": "text",
                     "content": "<p>Some content</p>",
                     "alt": ""
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/traxart/traxart_template.png",
+                    "alt": "Traxart edit template"
+                },
+                {
+                    "type": "text",
+                    "content": "<p>Some content</p>",
+                    "alt": ""
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/traxart/traxart_edit_template.png",
+                    "alt": "Traxart edit template field"
+                },
+                {
+                    "type": "text",
+                    "content": "<p>Some content</p>",
+                    "alt": ""
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/traxart/traxart_emails.png",
+                    "alt": "Traxart generated emails"
+                },
+                {
+                    "type": "text",
+                    "content": "<p>Some content</p>",
+                    "alt": ""
+                },
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/traxart/traxart_email_preview.png",
+                    "alt": "Traxart email preview"
                 }
             ]
         },
