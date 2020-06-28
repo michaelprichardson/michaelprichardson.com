@@ -74,12 +74,12 @@
             "image_url": "../../images/logo_traxart.png",
             "title": "Traxart",
             "post_id": "traxart",
-            "short_description": "I recently became the co-founder adn CTO of Traxart. It started off as a platform to allows presenters to get better feedback about their presentations. Just after the Covid-19 pandemic started we had to pivot and now the platform specializes in sending hyper personalized emails to attendees of webinars.",
+            "short_description": "I recently became the co-founder adn CTO of Traxart. It started off as a platform to allows presenters to get better feedback about their presentations. Just after the COVID-19 pandemic started we had to pivot and now the platform specializes in sending hyper personalized emails to attendees of webinars.",
             "github_url": "",
-            "date": "June 25th, 2020",
+            "date": "June 28th, 2020",
             "content": [{
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>I joined Matt as a co-founder of Traxart at the beginning of March 2020. There was already a basic version of the platform that allowed users to asks questions and answer polls during events. This was all pre COVID-19. I started with a complete overhaul of the UI as the previous platform was very simple. The front end was built in ReactJS and the API was build using NestJS. I had never used NestJS before but it was build on NodeJS and Express which I already had loads of experience with. Fot the UI I decided to go for a clean flat look as you can see in the images below.</p>",
                     "alt": ""
                 },
                 {
@@ -89,7 +89,12 @@
                 },
                 {
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>After working on Traxart for a couple of weeks, the COVID-19 lockdowns began and all of the physical events were being cancelled. We had to pivot as the product relied on physical events. Our first idea was just to adapt the way it was used in physical events and use that in online events. This was an easy pivot but we quickly realized that most of the video platforms like Zoom or GoTo had this sort of functionality and people weren't to concerned about viewing the analytics of their presentations. Going this route we would also have to take on Slido which had majority of the market.</p>",
+                    "alt": ""
+                },
+                {
+                    "type": "text",
+                    "content": "<p>After doing some research and talking to loads of people we started to notice that there was a gap in the market. This was with using the data that the video platforms gave you and using it to send hyper personalized emails to potential leads. All the data was there but no one was using it. This was a bigger pivot that before as we didn't have any of the functionality. We decided to integrate with Zoom first as they have most of the market. We looked at using integration tools like Zapier but they were very limited.</p>",
                     "alt": ""
                 },
                 {
@@ -99,7 +104,7 @@
                 },
                 {
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>The integration allows users to link Traxart with their Zoom account. Once this was done, all that was needed was either the meeting or webinar ID. The system checks to make sure that all of the settings are correct and that Traxart can use the event data. To create a Zoom integration, you have to submit it to Zoom and they review it before it can go live to the public. Our integration took over 6 weeks to get approved so in this time we created a work around. Users could manually download the Zoom reports and upload it directly to Traxart. This would be needed for some integrations in the future as not all the video platforms have API's to tie into. The above image shows the list of events added by a user. Zoom being from the Zoom integration and Custom being the file upload method.</p>",
                     "alt": ""
                 },
                 {
@@ -109,7 +114,7 @@
                 },
                 {
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>Once an event was added successfully, the user would be redirected to the template page. Here all the data would be available such as registration questions, polls, Q&A, duration etc. The user could use this information to design an email template to send to each one of the registrants. The image above shows the template editor and the image below shows the ease of adding a different field to the email template.</p>",
                     "alt": ""
                 },
                 {
@@ -119,7 +124,7 @@
                 },
                 {
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>Once a user has designed the template to send to each of the registrants, they would click generate of the event list page. This will take all of the data and the template and construct an email for each of the registrants. The image below shows the page after the emails have been generated. You can see the total number of registrants, attendees, the percentage of emails opened and clicked. Another feature we added in to make the process and seamless as possible was to send emails directly from within Traxart. All you need to do is verify the email address you want to send from. You can send a test email to yourself, this will randomly select an email and send it to the email address of the Traxart account.</p>",
                     "alt": ""
                 },
                 {
@@ -129,13 +134,18 @@
                 },
                 {
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>You can also view each of the individual emails generated to make sure you're happy with the results or look. The only thing left to do is to click the send button and come back in a few hours to view the open and click rate of your follow up emails.</p>",
                     "alt": ""
                 },
                 {
                     "type": "image",
                     "content": "../../images/blog_posts/traxart/traxart_email_preview.png",
                     "alt": "Traxart email preview"
+                },
+                {
+                    "type": "text",
+                    "content": "<p>The work so far on Traxart has been extremely interesting! I have be able to work with new features in AWS and Azure, I've learnt a new framework for designing REST API's and improved my TypeScript skills. All while trying to figure out which will be the best path for Traxart to follow during the COVID-19 pandemic. If you would like to check out Traxart you can have a look <a href='https://www.traxart.co'>here</a> or if you would like to find out more or ask me a question regarding choices I made feel free to get in contact with me on Twitter.</p>",
+                    "alt": ""
                 }
             ]
         },
