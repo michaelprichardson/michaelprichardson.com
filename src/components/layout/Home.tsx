@@ -48,8 +48,8 @@ class Home extends Component {
             <h2>A bit about myself</h2>
           </div>
           <div className="col-12">
-            I studied electrical and electronic engineering at Stellenbosch University in South Africa. 
-            I am currently working wth on Traxart as the co-founder and CTO.
+            I am from Cape Town, South Africa. I studied electrical and electronic engineering at Stellenbosch University in South Africa. 
+            I am currently working on Traxart as the co-founder and CTO.
             I completed my bachelors and masters there. My undergraduate project was 
             "<a href="https://www.youtube.com/watch?v=yBcdm20Ounc"><i>Load Balancing using Dynamic Spatial Partitioning</i></a>". 
             The topic of research for my Masters was 
