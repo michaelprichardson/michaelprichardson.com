@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import * as firebase from "firebase/app";
 
 import BlogHeader from "./BlogHeader";
 import BlogBody from "./BlogBody";
@@ -35,6 +36,7 @@ class Blog extends Component<Props & RouteProps, State> {
         }
 
         window.scrollTo(0, 0);
+        firebase.analytics().logEvent(postId);
     }
 
     render() {

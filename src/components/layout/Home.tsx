@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import * as firebase from "firebase/app";
 
 import me from "../../assets/img/me.png";
 import { Link } from "react-router-dom";
@@ -6,7 +7,10 @@ import { Link } from "react-router-dom";
 import projectData from '../../assets/data/projects.json';
 
 class Home extends Component {
+  
   render() {
+    firebase.analytics().logEvent("loaded_home_page");
+
     const projects = projectData.projects.map((project, index) => {
       return (
         <div key={index} className="col-md-6">
