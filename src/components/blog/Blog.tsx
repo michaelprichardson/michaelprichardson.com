@@ -7,6 +7,7 @@ import { RouteProps } from "react-router-dom";
 import { BlogContent } from './BlogBody';
 
 import projectData from '../../assets/data/projects.json';
+import SEO from "../seo/SEO";
 
 interface Props { 
     match: { 
@@ -43,24 +44,24 @@ class Blog extends Component<Props & RouteProps, State> {
         const { blogPost } = this.state;
         
         return (
-            <div className="container blog">
-                {blogPost ? 
-                (
-                    <div>
-                        <BlogHeader 
-                            imageUrl={blogPost.image_url}
-                            title={blogPost.title}
-                            date={blogPost.date}
-                        ></BlogHeader>
-                        <BlogBody
-                            blogContent={blogPost.content}
-                        ></BlogBody>
-                    </div>
-                ) : (
-                     <div>Loading...</div>
-                )
-                }
-            </div>
+          <div className="container blog">
+            {blogPost ? (
+              <div>
+                <SEO
+                  title={`${blogPost.title} | Michael Richardson`}
+                  description={blogPost.short_description}
+                ></SEO>
+                <BlogHeader
+                  imageUrl={blogPost.image_url}
+                  title={blogPost.title}
+                  date={blogPost.date}
+                ></BlogHeader>
+                <BlogBody blogContent={blogPost.content}></BlogBody>
+              </div>
+            ) : (
+              <div>Loading...</div>
+            )}
+          </div>
         );
     }
 }

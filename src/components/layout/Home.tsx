@@ -5,6 +5,7 @@ import me from "../../assets/img/me.png";
 import { Link } from "react-router-dom";
 
 import projectData from '../../assets/data/projects.json';
+import SEO from "../seo/SEO";
 
 class Home extends Component {
   
@@ -41,6 +42,12 @@ class Home extends Component {
     });
     return (
       <div className="container home">
+        <SEO
+          title={"Home | Michael Richardson"}
+          description={
+            "Michael Richardson is a software engineering living in the UK. This is a portfolio of his personal and professional projects."
+          }
+        ></SEO>
         <div className="row pt-5 justify-content-center">
           <div className="col-12 col-md-3">
             <img src={me} className="profile-image" alt="Michael Richardson" />
@@ -52,12 +59,19 @@ class Home extends Component {
             <h2>A bit about myself</h2>
           </div>
           <div className="col-12">
-            I am from Cape Town, South Africa. I studied electrical and electronic engineering at Stellenbosch University in South Africa. 
-            I am currently working on Traxart as the co-founder and CTO.
-            I completed my bachelors and masters there. My undergraduate project was 
-            "<a href="https://www.youtube.com/watch?v=yBcdm20Ounc"><i>Load Balancing using Dynamic Spatial Partitioning</i></a>". 
-            The topic of research for my Masters was 
-            "<a href="http://hdl.handle.net/10019.1/103536"><i>Physical Optics Based Methods for Scattering Analysis</i></a>".
+            I am from Cape Town, South Africa. I studied electrical and
+            electronic engineering at Stellenbosch University in South Africa. I
+            am currently working on Traxart as the co-founder and CTO. I
+            completed my bachelors and masters there. My undergraduate project
+            was "
+            <a href="https://www.youtube.com/watch?v=yBcdm20Ounc">
+              <i>Load Balancing using Dynamic Spatial Partitioning</i>
+            </a>
+            ". The topic of research for my Masters was "
+            <a href="http://hdl.handle.net/10019.1/103536">
+              <i>Physical Optics Based Methods for Scattering Analysis</i>
+            </a>
+            ".
           </div>
         </div>
 
@@ -67,9 +81,7 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="row p-3">
-          {projects}
-        </div>
+        <div className="row p-3">{projects}</div>
       </div>
     );
   }
