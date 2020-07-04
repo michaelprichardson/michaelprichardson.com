@@ -189,30 +189,41 @@
             "post_id": "soltero",
             "short_description": "This was a personal project that I started and am still busy with. It is very similar to Instagram by you are only allowed to post once every 24 hours and has the same layout as TikTok.",
             "github_url": "",
-            "date": "June 5th, 2020",
-            "content": [{
+            "date": "July 4th, 2020",
+            "content": [
+                {
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>Mention the inspiration behind it and what the idea is</p>",
                     "alt": ""
                 },
                 {
-                    "type": "text",
-                    "content": "<p>Some content</p>",
-                    "alt": ""
+                    "type": "image",
+                    "content": "../../images/blog_posts/soltero/soltero_1.png",
+                    "alt": "Soltero Login and Onboarding"
                 },
                 {
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>Mention the technologies used</p>",
                     "alt": ""
                 },
                 {
-                    "type": "text",
-                    "content": "<p>Some content</p>",
-                    "alt": ""
+                    "type": "image",
+                    "content": "../../images/blog_posts/soltero/soltero_2.png",
+                    "alt": "Soltero Feed"
                 },
                 {
                     "type": "text",
-                    "content": "<p>Some content</p>",
+                    "content": "<p>Mention what is still required for it to work</p>",
+                    "alt": ""
+                }, 
+                {
+                    "type": "image",
+                    "content": "../../images/blog_posts/soltero/soltero_3.png",
+                    "alt": "Soltero Add and Profile"
+                }, 
+                {
+                    "type": "text",
+                    "content": "<p>Contact me on Twitter</p>",
                     "alt": ""
                 }
             ]
