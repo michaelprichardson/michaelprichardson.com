@@ -6,17 +6,34 @@ on:
       - master
 
 jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: build
+          path: build
+
   deploy:
+    name: Deploy
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2.1.0
-      - name: Install Node.js 10
-        uses: actions/setup-node@v1
+      - name: Download Artifact
+        uses: actions/download-artifact@master
         with:
-          node-version: 10
-      - name: Install dependencies
-        run: npm install --prefix functions
+          name: build
+          path: build
 
       - name: Deploy to Firebase Hosting
         uses: w9jds/firebase-action@master
