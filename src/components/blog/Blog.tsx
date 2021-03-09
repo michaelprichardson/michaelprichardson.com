@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import * as firebase from "firebase/app";
+import firebase from 'firebase';
 
 import BlogHeader from "./BlogHeader";
 import BlogBody from "./BlogBody";

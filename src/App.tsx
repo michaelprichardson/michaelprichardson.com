@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import * as firebase from "firebase/app";
-import "firebase/analytics"
+import firebase from "firebase";
 
 import Navbar from './components/layout/Navbar';
 import Footer from "./components/layout/Footer";

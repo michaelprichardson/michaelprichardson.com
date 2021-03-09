@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import * as firebase from "firebase/app";
+import firebase from 'firebase';
 
 import me from "../../assets/img/me.png";
 import { Link } from "react-router-dom";
